@@ -1,0 +1,36 @@
+10
+3 1 1 ALGORITMO DESCUENTOCOMPRA
+1 9
+
+DescuentoCompra
+
+9 2 1 DEFINIR COMPRA COMO REAL
+1
+compra
+0 1 0 0
+9 3 1 DEFINIR DESCUENTO, TOTAL COMO REAL
+2
+descuento
+total
+0 1 0 0
+7 5 1 ESCRIBIR 'Ingresa el total de la compra:'
+1 1
+'Ingresa el total de la compra:'
+5 6 1 LEER COMPRA
+1
+compra
+6 8 1 DESCUENTO <- COMPRA *0.15
+descuento
+compra*0.15
+6 9 1 TOTAL <- COMPRA - DESCUENTO
+total
+compra-descuento
+7 11 1 ESCRIBIR 'El descuento es:, descuento'
+1 1
+'El descuento es:, descuento'
+7 12 1 ESCRIBIR 'El total a pagar es: ', TOTAL
+1 2
+'El total a pagar es: '
+total
+4 16 1 FINALGORITMO
+1 DescuentoCompra

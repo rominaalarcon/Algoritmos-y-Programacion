@@ -1,0 +1,50 @@
+13
+3 1 1 ALGORITMO PORCENTAJEHOMBRESMUJERES
+1 12
+
+PorcentajeHombresMujeres
+
+9 2 1 DEFINIR HOMBRES, MUJERES, TOTAL COMO ENTERO
+3
+hombres
+mujeres
+total
+0 1 0 1
+9 3 1 DEFINIR PHOMBRES, PMUJERES COMO REAL
+2
+pHombres
+pMujeres
+0 1 0 0
+7 5 1 ESCRIBIR 'Ingresa el numero de hombres:'
+1 1
+'Ingresa el numero de hombres:'
+5 6 1 LEER HOMBRES
+1
+hombres
+7 8 1 ESCRIBIR 'Ingresa el numero de mujeres:'
+1 1
+'Ingresa el numero de mujeres:'
+5 9 1 LEER MUJERES
+1
+mujeres
+6 11 1 TOTAL <- HOMBRES + MUJERES
+total
+hombres+mujeres
+6 12 1 PHOMBRES <- (HOMBRES / TOTAL) *100
+pHombres
+(hombres/total)*100
+6 13 1 PMUJERES <- (MUJERES / TOTAL) *100
+pMujeres
+(mujeres/total)*100
+7 15 1 ESCRIBIR 'Porcentaje de hombres: ', PHOMBRES, '%'
+1 3
+'Porcentaje de hombres: '
+pHombres
+'%'
+7 16 1 ESCRIBIR 'Porcentaje de mujeres: ', PMUJERES, '%'
+1 3
+'Porcentaje de mujeres: '
+pMujeres
+'%'
+4 19 1 FINALGORITMO
+1 PorcentajeHombresMujeres

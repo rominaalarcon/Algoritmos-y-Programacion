@@ -1,0 +1,50 @@
+14
+3 1 1 ALGORITMO CALIFICACIONFINAL
+1 13
+
+CalificacionFinal
+
+9 3 1 DEFINIR P1, P2, PRACTICA, FINAL COMO REAL
+4
+p1
+p2
+practica
+final
+0 1 0 0
+9 4 1 DEFINIR CALIFICACION COMO REAL
+1
+calificacion
+0 1 0 0
+7 6 1 ESCRIBIR 'Ingresa la nota del primer parcial:'
+1 1
+'Ingresa la nota del primer parcial:'
+5 7 1 LEER P1
+1
+p1
+7 9 1 ESCRIBIR 'Ingresa la nota del segundo parcial:'
+1 1
+'Ingresa la nota del segundo parcial:'
+5 10 1 LEER P2
+1
+p2
+7 12 1 ESCRIBIR 'Ingresa la nota de la practica:'
+1 1
+'Ingresa la nota de la practica:'
+5 13 1 LEER PRACTICA
+1
+practica
+7 15 1 ESCRIBIR 'Ingresa la nota del parcial final:'
+1 1
+'Ingresa la nota del parcial final:'
+5 16 1 LEER FINAL
+1
+final
+6 18 1 CALIFICACION <- P1 * 0.20 + P2 * 0.20 + PRACTICA * 0.35 + FINAL * 0.25
+calificacion
+p1*0.20+p2*0.20+practica*0.35+final*0.25
+7 19 1 ESCRIBIR 'La calificacion final es: ', CALIFICACION
+1 2
+'La calificacion final es: '
+calificacion
+4 21 1 FINALGORITMO
+1 CalificacionFinal

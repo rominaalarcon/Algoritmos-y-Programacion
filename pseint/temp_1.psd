@@ -1,0 +1,64 @@
+19
+2 1 1 
+Romina Alarcon
+2 2 1 
+Un vendedor recibe un sueldo base ma?s un 10 % extra por comision de sus ventas.
+3 4 1 ALGORITMO COMISIONVENDEDOR
+1 18
+
+ComisionVendedor
+
+2 5 1 
+Inicio
+9 6 1 DEFINIR SUELDO, VENTA1, VENTA2, VENTA3 COMO REAL
+4
+sueldo
+venta1
+venta2
+venta3
+0 1 0 0
+9 7 1 DEFINIR COMISION, TOTAL COMO REAL
+2
+comision
+total
+0 1 0 0
+7 9 1 ESCRIBIR 'Ingresa el sueldo base:'
+1 1
+'Ingresa el sueldo base:'
+5 10 1 LEER SUELDO
+1
+sueldo
+7 12 1 ESCRIBIR 'Ingresa la venta 1:'
+1 1
+'Ingresa la venta 1:'
+5 13 1 LEER VENTA1
+1
+venta1
+7 15 1 ESCRIBIR 'Ingresa la venta 2:'
+1 1
+'Ingresa la venta 2:'
+5 16 1 LEER VENTA2
+1
+venta2
+7 18 1 ESCRIBIR 'Ingresa la venta 3:'
+1 1
+'Ingresa la venta 3:'
+5 19 1 LEER VENTA3
+1
+venta3
+6 21 1 COMISION <- (VENTA1 + VENTA2 + VENTA3) * 0.10
+comision
+(venta1+venta2+venta3)*0.10
+6 22 1 TOTAL <- SUELDO + COMISION
+total
+sueldo+comision
+7 24 1 ESCRIBIR 'La comision es: ', COMISION
+1 2
+'La comision es: '
+comision
+7 25 1 ESCRIBIR 'El total a recibir es: ', TOTAL
+1 2
+'El total a recibir es: '
+total
+4 31 1 FINALGORITMO
+1 ComisionVendedor

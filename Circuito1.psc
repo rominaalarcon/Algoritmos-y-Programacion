@@ -1,19 +1,17 @@
 Algoritmo Circuito1
-	Definir p, q Como Logico
-	
+	Definir p, q Como Lógico
+	Escribir 'p AND q ------- NOT q -------  (p AND q OR (NOT q)'
 	p <- Verdadero
-	q <- Verdadero 
-	Escribir  "p     q        p AND q        NOT q      (p AND q) OR (NOT q)"
+	q <- Verdadero
+	Escribir p Y q, ' -------',  NO q, '-------', (p Y q) O ( NO q)
 	p <- Verdadero
-	q <- Falso  
-	Escribir p, "-",q,"-",p y q,"-",no q,"-", (p y q) or (no q) 
+	q <- Falso
+	Escribir p Y q, ' -------',  NO q, '-------', (p Y q) O ( NO q)
 	p <- Falso
-	q <- Verdadero 
-	Escribir p, "-",q,"-",p y q,"-",no q,"-", (p y q) or (no q) 
+	q <- Verdadero
+	Escribir p Y q, ' -------',  NO q, '-------', (p Y q) O ( NO q)
 	p <- Falso
 	q <- Falso
-	Escribir p, "-",q,"-",p y q,"-",no q,"-", (p y q) or (no q) 
-	
-	
+	Escribir p Y q, ' -------',  NO q, '-------', (p Y q) O ( NO q)
 	
 FinAlgoritmo
